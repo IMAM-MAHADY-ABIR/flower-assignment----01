@@ -1,3 +1,76 @@
-h1{
-    background-color: aquamarine;
+/* ***********header styles******** */
+
+
+.full{
+    padding: 70px 200px 0px 200px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+}
+.let h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    
+}
+.let p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.let button{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+
+/* *********section---1 styles******* */
+.featured{
+    
+    display: flex;
+    gap: 50px;
+    text-align: center; 
+    margin: auto;
+}
+.section-1{
+    text-align: center;
+    padding: 150px 200px 0px 200px;
+}
+.section-1 h1{
+    font-size: 40px;
+    
+
+
+}
+.section-1 p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.img-bg {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 30px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.featured img{
+    width: 310px;
+    height: 428px;
+    padding: 70px 50px 0px 70px;
+}
+.featured a{
+    display: block;
 }

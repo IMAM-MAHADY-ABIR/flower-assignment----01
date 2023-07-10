@@ -98,3 +98,93 @@ background: rgba(39, 39, 39, 0.05);
     color: rgba(39, 39, 39, 0.80);
 
 }
+
+
+
+/* ********section --3styles****** */
+
+
+.section-3{
+    padding: 70px 250px 0px 250px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    text-align: center;
+    margin-bottom: 100px;
+}
+.hot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 130px;
+
+}
+.hot p{
+    color: rgba(39, 39, 39, 0.60);
+}
+.hot button{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+/* **************section -----4************** */
+.section-4{
+    text-align: center;
+    margin: 70px 250px 250px 250px;
+
+}
+.section-4 p{
+    color: rgba(39, 39, 39, 0.60);
+}
+.instra-image{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.deal{
+    padding: 150px 300px;
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-4 input{
+    width: 60%;
+    padding: 20px 43px;
+    font-size: 16px;
+}
+.section-4 button{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+}
+.section-4 h1{
+    font-size: 40px;
+}
+footer{
+    padding: 200px 250px 200px 250px;
+    background-color: #111010;
+    text-align: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.90);
+}
+footer h1{
+    color: #E55473;
+}
+footer .yellow{
+    color: white;
+}
+footer .ppp{
+    color: #FFFFFF66;
+    margin-top: 15px;
+}
